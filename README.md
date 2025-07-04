@@ -1,12 +1,12 @@
-#### Machine-Learning-Algorithms
+## Machine-Learning-Algorithms
 
 #### Introduction to Machine Learning Algorithms
 
 Machine learning algorithms are essentially sets of instructions that allow computers to learn from data, make predictions, and improve their performance over time without being explicitly programmed. These algorithms form the foundation of many modern technologies such as recommendation systems, voice assistants, self-driving cars, and fraud detection systems.
 
-## Types of Machine Learning Algorithms
+#### Types of Machine Learning Algorithms
 
-### 1. Supervised Learning
+#### 1. Supervised Learning
 In supervised learning, algorithms learn from **labeled data** — meaning the input data is paired with the correct output.
 
 #### Characteristics:
@@ -21,7 +21,7 @@ In supervised learning, algorithms learn from **labeled data** — meaning the i
 
 ---
 
-### 2. Unsupervised Learning
+#### 2. Unsupervised Learning
 In unsupervised learning, algorithms work with **unlabeled data** to uncover hidden patterns or structures.
 
 #### Characteristics:
@@ -36,7 +36,7 @@ In unsupervised learning, algorithms work with **unlabeled data** to uncover hid
 
 ---
 
-### 3. Reinforcement Learning
+#### 3. Reinforcement Learning
 Reinforcement learning is a type of machine learning where an agent learns to make decisions by **interacting with an environment** and receiving **rewards or penalties** based on its actions.
 
 #### Characteristics:
@@ -51,7 +51,7 @@ Reinforcement learning is a type of machine learning where an agent learns to ma
 
 ---
 
-## Summary
+#### Summary
 
 | Learning Type       | Data Type     | Goal                             | Examples                  |
 |---------------------|---------------|----------------------------------|---------------------------|
@@ -63,7 +63,7 @@ Reinforcement learning is a type of machine learning where an agent learns to ma
 
 
 
-# Supervised Learning Algorithms
+#### Supervised Learning Algorithms
 
 Supervised learning algorithms are trained on datasets where each example is paired with a target or response variable, known as the **label**. The goal is to learn a mapping function from input data to the corresponding output labels, enabling the model to make accurate predictions on unseen data.
 
@@ -75,7 +75,7 @@ Below are widely used supervised learning algorithms:
 
 ---
 
-## 1. Linear Regression
+#### 1. Linear Regression
 
 - Predicts a **continuous value** by finding the best-fit straight line between input (independent variable) and output (dependent variable).
 - Minimizes the difference between actual and predicted values using **least squares** method.
@@ -83,7 +83,7 @@ Below are widely used supervised learning algorithms:
 
 ---
 
-## 2. Logistic Regression
+#### 2. Logistic Regression
 
 - Predicts **probabilities** and assigns data points to **binary or multi-class** categories.
 - Uses a **logistic (sigmoid) function** to map inputs to probabilities.
@@ -92,7 +92,7 @@ Below are widely used supervised learning algorithms:
 
 ---
 
-## 3. Decision Trees
+#### 3. Decision Trees
 
 - Splits data based on feature values to form a **tree-like structure**.
 - Each node is a decision based on a feature; leaf nodes represent outcomes.
@@ -104,7 +104,7 @@ Below are widely used supervised learning algorithms:
 
 ---
 
-## 4. Support Vector Machines (SVM)
+#### 4. Support Vector Machines (SVM)
 
 - Finds the **optimal hyperplane** that best separates data into classes.
 - Uses **support vectors** to define boundaries.
@@ -113,7 +113,7 @@ Below are widely used supervised learning algorithms:
 
 ---
 
-## 5. k-Nearest Neighbors (k-NN)
+#### 5. k-Nearest Neighbors (k-NN)
 
 - Predicts output based on the **k closest training examples**.
 - Uses **distance metrics** (Euclidean, Manhattan, etc.) to find neighbors.
@@ -131,7 +131,7 @@ Below are widely used supervised learning algorithms:
 
 ---
 
-## 7. Random Forest
+#### 7. Random Forest
 
 - An **ensemble learning** method that combines multiple decision trees.
 - Uses **bagging** (bootstrap aggregation) for training different trees.
@@ -140,13 +140,13 @@ Below are widely used supervised learning algorithms:
 
 ---
 
-## 8. Gradient Boosting (XGBoost, LightGBM, CatBoost)
+#### 8. Gradient Boosting (XGBoost, LightGBM, CatBoost)
 
 - Builds models **sequentially** where each new model improves upon the last.
 - Combines **weak learners** into a strong model.
 - Effective for both classification and regression.
 
-### Popular Implementations:
+#### Popular Implementations:
 - **XGBoost**: Includes regularization, highly efficient for large datasets.
 - **LightGBM**: Histogram-based and supports native categorical data.
 - **CatBoost**: Specifically optimized for categorical data.
@@ -157,7 +157,7 @@ Other ensemble methods:
 
 ---
 
-## 9. Neural Networks (Including MLP)
+#### 9. Neural Networks (Including MLP)
 
 - Composed of layers of neurons that transform input data into predictions.
 - **Multilayer Perceptron (MLP)**: Neural network with input, hidden, and output layers.
