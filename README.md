@@ -1,6 +1,6 @@
-## Machine-Learning-Algorithms
+#### Machine-Learning-Algorithms
 
-# Introduction to Machine Learning Algorithms
+#### Introduction to Machine Learning Algorithms
 
 Machine learning algorithms are essentially sets of instructions that allow computers to learn from data, make predictions, and improve their performance over time without being explicitly programmed. These algorithms form the foundation of many modern technologies such as recommendation systems, voice assistants, self-driving cars, and fraud detection systems.
 
