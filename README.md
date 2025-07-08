@@ -1,3 +1,9 @@
+### What is Machine Learning ?
+Machine learning (ML) is a type of artificial intelligence that enables systems to learn from data without explicit programming. Instead of being instructed on every specific task, ML algorithms analyze data, identify patterns, and make predictions or decisions based on that analysis
+
+
+
+
 ## Machine-Learning-Algorithms
 
 #### Introduction to Machine Learning Algorithms
