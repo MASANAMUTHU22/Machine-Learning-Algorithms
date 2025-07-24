@@ -312,5 +312,118 @@ Directly optimize a policy that maps states to actions:
 --------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------
 
+### Python
+Python is a high-level, interpreted programming language used for general-purpose programming. It's especially popular in data science, machine learning, web development, etc.
+
+### Example:
+```
+# Simple Python example
+name = "Data Science"
+print("Welcome to", name)
+```
+
+### Pandas
+Pandas is a powerful library for data manipulation and analysis. It provides two main data structures:
+
+- Series: 1D labeled array
+
+- DataFrame: 2D labeled data table (like an Excel sheet)
+
+Example:
+```
+python
+
+import pandas as pd
+
+# Creating a DataFrame
+data = {'Name': ['Asha', 'Raj'], 'Age': [25, 30]}
+df = pd.DataFrame(data)
+```
+
+### NumPy
+NumPy (Numerical Python) is used for numerical computations and provides powerful N-dimensional arrays.
+
+### Example:
+
+```
+import numpy as np
+
+# Creating a NumPy array
+arr = np.array([10, 20, 30])
+
+# Array operations
+print("Sum:", np.sum(arr))
+print("Mean:", np.mean(arr))
+```
+
+### Scikit-learn
+Scikit-learn is a library for machine learning. It provides tools for:
+
+- Classification, Regression
+
+- Clustering
+
+- Model Evaluation
+
+```
+from sklearn.linear_model import LogisticRegression
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+
+# Load dataset
+iris = load_iris()
+X, y = iris.data, iris.target
+
+# Split and train
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+model = LogisticRegression(max_iter=200)
+model.fit(X_train, y_train)
+
+# Prediction
+print("Predicted:", model.predict(X_test[:5]))
+```
+
+### Matplotlib
+Matplotlib is a 2D plotting library used to create static, animated, and interactive plots
+
+```
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4]
+y = [10, 20, 25, 30]
+
+plt.plot(x, y, marker='o')
+plt.title("Line Plot")
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+plt.show()
+```
+### Seaborn
+Seaborn is built on top of Matplotlib. It provides a high-level interface for drawing attractive statistical graphics
+
+```
+import seaborn as sns
+import pandas as pd
+
+# Sample DataFrame
+data = pd.DataFrame({'Subject': ['Math', 'Science', 'History'], 'Score': [88, 92, 85]})
+
+# Bar plot
+sns.barplot(x='Subject', y='Score', data=data)
+plt.title("Exam Scores")
+plt.show()
+```
+
+
+### Libraries Overview
+
+| Library      | Purpose                        | Example Task                   |
+| ------------ | ------------------------------ | ------------------------------ |
+| Python       | General-purpose language       | Basic scripting and logic      |
+| Pandas       | Data manipulation (DataFrames) | Loading CSV, cleaning data     |
+| NumPy        | Numeric computations           | Array math, statistics         |
+| Scikit-learn | Machine learning algorithms    | Classification, regression     |
+| Matplotlib   | Data visualization             | Line charts, bar graphs        |
+| Seaborn      | Statistical visualization      | Heatmaps, boxplots, bar charts |
 
 
